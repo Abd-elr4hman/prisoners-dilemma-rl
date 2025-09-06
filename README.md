@@ -1,10 +1,12 @@
-# Prisoner's Dilemma Reinforcement Learning
+# Prisoner's Dilemma Reinforcement
 
 A PyTorch implementation of the REINFORCE algorithm for training neural network agents to play the iterated Prisoner's Dilemma against various opponent strategies.
 
+!!! warning This repo was mostly vibe coded with claude.
+
 ## Overview
 
-This project explores how artificial agents can learn cooperative and competitive behaviors in multi-agent game theory scenarios. The agent uses a neural network policy trained with policy gradients to adapt its strategy based on game history and opponent behavior.
+This project explores how artificial agents can learn cooperative behaviors. The agent uses a neural network policy trained with policy gradients to adapt its strategy based on game history and opponent behavior.
 
 ## Features
 
@@ -26,3 +28,8 @@ The Prisoner's Dilemma uses the standard payoff matrix:
 
 **Actions**: 0 = Cooperate, 1 = Defect  
 **Observations**: History of last N moves for both players
+
+# Training Results
+
+- Against tit for tat:
+  ![alt text](Capture.PNG)
