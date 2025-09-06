@@ -2,7 +2,9 @@
 
 A PyTorch implementation of the REINFORCE algorithm for training neural network agents to play the iterated Prisoner's Dilemma against various opponent strategies.
 
-!!! warning This repo was mostly vibe coded with claude.
+<div align="center">
+<strong>⚠️ WARNING: This repo was mostly vide coded with claude ⚠️</strong>
+</div>
 
 ## Overview
 
