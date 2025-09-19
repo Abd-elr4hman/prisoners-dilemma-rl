@@ -9,15 +9,6 @@ A PyTorch implementation of the REINFORCE algorithm for training neural network 
 
 This project explores how artificial agents can learn cooperative behaviors. The agent uses a neural network policy trained with policy gradients to adapt its strategy based on game history and opponent behavior.
 
-## Features
-
-- **Multiple Opponent Strategies**: Random, Tit-for-Tat, Always Cooperate, Always Defect
-- **Configurable Environment**: Adjustable episode length and history window
-- **Neural Network Policy**: Fully connected network with customizable architecture
-- **REINFORCE Training**: Policy gradient algorithm with discount factor
-- **Real-time Visualization**: Training progress plots for rewards and cooperation rates
-- **Performance Evaluation**: Statistical analysis of trained policies
-
 ## Environment
 
 The Prisoner's Dilemma uses the standard payoff matrix:
